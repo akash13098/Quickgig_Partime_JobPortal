@@ -58,13 +58,15 @@ export default function LoginPage() {
           </form>
 
           <div className="mt-4 p-4 bg-muted rounded-xl">
-           
+            <p className="text-xs font-medium text-muted-foreground mb-2">Demo Accounts:</p>
             <div className="grid grid-cols-2 gap-2 text-xs">
-              <button onClick={() => { setEmail('eg-arjun@demo.com'); setPassword('eg-demo123'); }} className="text-left p-2 rounded-lg bg-card hover:bg-primary/5 transition-colors">
-                
+              <button onClick={() => { setEmail('arjun@demo.com'); setPassword('demo123'); }} className="text-left p-2 rounded-lg bg-card hover:bg-primary/5 transition-colors">
+                <div className="font-medium text-foreground">Seeker</div>
+                <div className="text-muted-foreground">arjun@demo.com</div>
               </button>
-              <button onClick={() => { setEmail('eg-rajesh@demo.com'); setPassword('eg-demo123'); }} className="text-left p-2 rounded-lg bg-card hover:bg-primary/5 transition-colors">
-                
+              <button onClick={() => { setEmail('rajesh@demo.com'); setPassword('demo123'); }} className="text-left p-2 rounded-lg bg-card hover:bg-primary/5 transition-colors">
+                <div className="font-medium text-foreground">Employer</div>
+                <div className="text-muted-foreground">rajesh@demo.com</div>
               </button>
             </div>
           </div>
