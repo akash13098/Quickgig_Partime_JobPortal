@@ -85,10 +85,8 @@ export default function HomePage() {
 
             {!currentUser && (
               <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
-                <span>Demo accounts:</span>
-                <code className="bg-muted px-2 py-1 rounded text-xs">arjun@demo.com</code>
-                <code className="bg-muted px-2 py-1 rounded text-xs">rajesh@demo.com</code>
-                <span className="text-xs">(pass: demo123)</span>
+                
+      
               </div>
             )}
           </motion.div>
