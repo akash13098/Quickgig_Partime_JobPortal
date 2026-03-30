@@ -83,12 +83,6 @@ export default function HomePage() {
               </Button>
             </form>
 
-            {!currentUser && (
-              <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
-                
-      
-              </div>
-            )}
           </motion.div>
         </div>
       </section>
